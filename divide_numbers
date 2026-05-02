@@ -1,0 +1,10 @@
+function divide(a, b) {
+  if (b === 0) {
+    return "Error: Cannot divide by zero";
+  }
+  return a / b;
+}
+
+// Example usage:
+const result = divide(20, 4);
+console.log(result); // 5
